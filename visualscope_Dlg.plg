@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: visualscope_Dlg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "Z:\TEMP\RSP305F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/visualscope_Dlg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\visualscope_DlgDlg.cpp"
+]
+Creating command line "cl.exe @Z:\TEMP\RSP305F.tmp" 
+Creating temporary file "Z:\TEMP\RSP3060.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/visualscope_Dlg.pdb" /machine:I386 /out:"Release/visualscope_Dlg.exe" 
+".\Release\MyButtun.obj"
+".\Release\SerialPort.obj"
+".\Release\StdAfx.obj"
+".\Release\visualscope_Dlg.obj"
+".\Release\visualscope_DlgDlg.obj"
+".\Release\visualscope_Dlg.res"
+]
+Creating command line "link.exe @Z:\TEMP\RSP3060.tmp"
+<h3>Output Window</h3>
+Compiling...
+visualscope_DlgDlg.cpp
+F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\visualscope_DlgDlg.cpp(216) : warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\visualscope_DlgDlg.cpp(218) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\visualscope_DlgDlg.cpp(318) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\visualscope_DlgDlg.cpp(1150) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\visualscope_DlgDlg.cpp(1162) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\visualscope_DlgDlg.cpp(1166) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\visualscope_DlgDlg.cpp(1264) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\visualscope_DlgDlg.cpp(1278) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\visualscope_DlgDlg.cpp(1375) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+F:\1_ALL Projects\C++\visualscope_Dlg\visualscope_Dlg\visualscope_DlgDlg.cpp(1577) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/visualscope_Dlg.bsc"  ".\Release\StdAfx.sbr" ".\Release\MyButtun.sbr" ".\Release\SerialPort.sbr" ".\Release\visualscope_Dlg.sbr" ".\Release\visualscope_DlgDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+visualscope_Dlg.exe - 0 error(s), 10 warning(s)
+</pre>
+</body>
+</html>
